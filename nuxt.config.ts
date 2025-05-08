@@ -8,5 +8,9 @@ export default defineNuxtConfig({
     '@nuxt/image',
     '@nuxt/ui',
     '@nuxt/eslint'
-  ]
+  ],
+  runtimeConfig: {
+    public: {
+      apiBaseUrl: 'https://localhost:7030/api'  // Update this to your actual backend URL
+    }}
 })
